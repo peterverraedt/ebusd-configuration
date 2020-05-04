@@ -5,9 +5,19 @@ r,,State,,,,,07,energy,,UCH,,,,,,energy,,kWh,,onoff,,UCH,0=off;1=on,,,state,,UCH
 *r,,,,,,"B51A","05FF32",,,IGN:3,,,,
 r,,EnergyHc,,,,,00,,,energy,,,,,,,,,,,,,,,
 r,,EnergyCool,,,,,01,,,energy,,,,,,,,,,,,,,,
-r,,Hours,,,,,40,,,energy,,,,,,,,,,,,,,,
-r,,HoursHc,,,,,41,,,energy,,,,,,,,,,,,,,,
-r,,HoursCool,,,,,43,,,energy,,,,,,,,,,,,,,,
+r,,Hours,,,,,40,,,hoursum2,,,,,,,,,,,,,,,
+r,,HoursHc,,,,,41,,,hoursum2,,,,,,,,,,,,,,,
+r,,HoursCool,,,,,43,,,hoursum2,,,,,,,,,,,,,,,
+r,,HoursHwc,,,,,44,,,hoursum2,,,,,,,,,,,,,,,
+# Based jointly on https://github.com/john30/ebusd-configuration/pull/160/files
+# And https://github.com/john30/ebusd-configuration/issues/167
+r,,EnergyIntegral,,,,,21,,,integral,,,,,,,,,,,,,,,
+r,,EnvTempIn,,,,,22,,,temp,,,,,,,,,,,,,,,
+r,,CurrentPowerGenerated,,,,,23,,,power,,,,,,,,,,,,,,,
+r,,CurrentPowerConsumption,,,,,24,,,power,,,,,,,,,,,,,,,
+r,,EnvTempOut,,,,,27,,,temp,,,,,,,,,,,,,,,
+r,,FlowTempDesired,,,,,1f,,,temp,,,,,,,,,,,,,,,
+r,,FlowTempOut,,,,,20,,,temp,,,,,,,,,,,,,,,
 # Total heating yields
 *r,,,,,,"B516","18",,,IGN:1,,,
 r,,YieldTotal,,,,,01,,,energy,,,,,,,,,,,,,,,
