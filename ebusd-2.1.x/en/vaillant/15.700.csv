@@ -47,7 +47,7 @@ r;w,,PhoneNumber1,phone number 1,,,,6F00,,,shortphone,,,installer's telephone nu
 r;w,,PhoneNumber2,phone number 2,,,,7000,,,shortphone,,,installer's telephone number
 r;w,,HolidayStartPeriod,holiday start period,,,,7100,,,hfrom,,,start date of holidays
 r;w,,HolidayEndPeriod,holiday end period,,,,7200,,,hto,,,end date of holidays
-r,,DisplayedOutsideTemp,outside temperature,,,,7300,,,tempv,,,Außentemperatur
+r;w,,DisplayedOutsideTemp,outside temperature,,,,7300,,,tempv,,,Außentemperatur
 r;w,,SFMode,SF mode,,,,7400,,,sfmode,,,
 r;w,,KeyCodeforConfigMenu,code for installer menu,,,,7600,,,UIN,,,000-999; code for the installer's menues
 r;w,,OpMode,operation mode,,,,7b00,,,opmode,,,operation mode of all/configured zone(s) matching OpModeEffect
