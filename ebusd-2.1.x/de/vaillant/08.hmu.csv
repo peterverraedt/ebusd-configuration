@@ -16,6 +16,8 @@ r,,EnvTempIn,,,,,22,,,temp,,,,,,,,,,,,,,,
 r,,CurrentPowerGenerated,,,,,23,,,power2,,,,,,,,,,,,,,,
 r,,CurrentPowerConsumption,,,,,24,,,power2,,,,,,,,,,,,,,,
 r,,EnvTempOut,,,,,27,,,temp,,,,,,,,,,,,,,,
+r,,FlowPressure,,,,,3d,,,D2C,4,,,,,,,,,,,,,,,,,,,,
+r,,EnvPressure,,,,,3e,,,D2C,4,,,,,,,,,,,,,,,,,,,,
 r,,FlowTempDesired,,,,,1f,,,temp,,,,,,,,,,,,,,,
 r,,FlowTempOut,,,,,20,,,temp,,,,,,,,,,,,,,,
 # Total heating yields
